@@ -19,7 +19,27 @@
 				"command": "vscode-term-activity-bar.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"icon": "terminal.svg",
+					"title": "terminal",
+					"id": "terminal-thing"
+				}
+			]
+
+		},
+		"views": {
+			"package-explorer": [
+			  {
+				"id": "nodeDependencies",
+				"name": "Node Dependencies",
+				"icon": "media/dep.svg",
+				"contextualTitle": "Package Explorer"
+			  }
+			]
+		  }
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
